@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>SOMANDO DOIS NUMEROS</h1>
+    <input type="text1" id="text1"><strong>+</strong>
+    <input type="text2" id="text2">
+    <input type="button" value="SOMAR" onclick="somar()">
+    <div id='res'></div>
+    <script>
+        function somar(){
+            var n1 = window.document.getElementById('text1')
+            var n2 = window.document.getElementById('text2')
+            var s = Number(n1.value)+Number(n2.value)
+            res.innerHTML = `A soma entre ${n1.value} e ${n2.value} é ${s}`
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title name="titulo">AULA 09 first steps with DOM</title>
+   <!--- <script type="text/javascript" src="09.js"></script>-->
+</head>
+   
+<body>
+    <h1>Inicinado com     DOM</h1>
+    <p>aqui vsi os results</p>
+    <p>aprendendo a usar <strong>DOM</strong> em JavaScript</p>
+    <h2>oli</h2>
+    <div>click here!</div>  
+    <script>
+        var p1 = window.document.getElementsByTagName('p')[0]
+        window.document.write(p1.style.backgroundColor= 'blue')
+        var d = window.document.getElementsByTagName('div')[0]
+        d.style.backgroundColor='red'
+    </script>
+
+</body>
+</html>
